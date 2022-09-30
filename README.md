@@ -22,6 +22,9 @@ MSCIに参加したときのkaggle日記
 
 ## 20220929
 * データ圧縮
-*
-*
+* multi/citeでbaseline
+* 初sub
+|filename|cv|lb|
+|--------|--|--|
+|first.csv||0.802|
 
