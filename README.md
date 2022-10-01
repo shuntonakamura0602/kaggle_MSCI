@@ -10,6 +10,9 @@ MSCIに参加したときのkaggle日記
 * notebookで行った内容はすべてREADME.mdに記録する
 * 思いついたアイデアをREAD.mdに書き込む
 
+# アイデア
+* NNで次元削減
+
 # paper
 * 参考にした論文の一覧
 
