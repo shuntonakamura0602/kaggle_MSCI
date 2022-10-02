@@ -12,6 +12,7 @@ MSCIに参加したときのkaggle日記
 
 # アイデア
 * NNで次元削減
+* testのdonor4で擬似ラベリング
 
 # paper
 * 参考にした論文の一覧
@@ -39,4 +40,10 @@ MSCIに参加したときのkaggle日記
 |filename|cite_cv|multi_cv|all_cv|lb|
 |--------|-------|--------|------|--|
 |lgbm2ridge1.csv|0.88207|0.660|0.81811384|0.803|
+
+## 20221001
+* discussion読んだ
+
+
+
 
