@@ -46,6 +46,7 @@ MSCIに参加したときのkaggle日記
 
 ## 20221002
 * privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
-* 
+* 決定木モデルはcv↑lb↓になりやすい
+* privateに対して妥当なcvを作成し、trust cv
 
 
