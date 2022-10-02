@@ -45,7 +45,7 @@ MSCIに参加したときのkaggle日記
 * discussion読んだ
 
 ## 20221002
-* privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある
+* privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
 * 
 
 
