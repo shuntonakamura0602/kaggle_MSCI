@@ -19,10 +19,24 @@ MSCIに参加したときのkaggle日記
 
 # Log
 
-## 20220928
-* join!
-* 題材が難しい
-* EDA確認した
+
+## 20221002
+* privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
+* 決定木モデルはcv↑lb↓になりやすい(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/352567)
+* privateに対して妥当なcvを作成し、trust cv
+* 4人のドナーの細胞は別々のプレートに置かれ、各細胞は一つの時点のみで測定されその後破棄される。つまり一つの細胞についての時系列データを得ることはできない。細胞はプレートからランダムサンプリングされる。(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348524) (https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347813)
+* meta.dayでgkfした
+
+## 20221001
+* discussion読んだ
+
+## 20220930
+* lb・cv理解
+* cv実装
+
+|filename|cite_cv|multi_cv|all_cv|lb|
+|--------|-------|--------|------|--|
+|lgbm2ridge1.csv|0.88207|0.660|0.81811384|0.803|
 
 ## 20220929
 * データ圧縮
@@ -33,21 +47,7 @@ MSCIに参加したときのkaggle日記
 |--------|--|--|
 |first.csv||0.802|
 
-## 20220930
-* lb・cv理解
-* cv実装
-
-|filename|cite_cv|multi_cv|all_cv|lb|
-|--------|-------|--------|------|--|
-|lgbm2ridge1.csv|0.88207|0.660|0.81811384|0.803|
-
-## 20221001
-* discussion読んだ
-
-## 20221002
-* privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
-* 決定木モデルはcv↑lb↓になりやすい(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/352567)
-* privateに対して妥当なcvを作成し、trust cv
-* 4人のドナーの細胞は別々のプレートに置かれ、各細胞は一つの時点のみで測定されその後破棄される。つまり一つの細胞についての時系列データを得ることはできない。細胞はプレートからランダムサンプリングされる。(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348524) (https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347813)
-
-
+## 20220928
+* join!
+* 題材が難しい
+* EDA確認した
