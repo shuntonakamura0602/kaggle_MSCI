@@ -15,6 +15,7 @@ MSCIに参加したときのkaggle日記
 # do
 * NNで次元削減
 * testのdonor4で擬似ラベリング
+* 逆変換して生データにもどしてNNに流す
 
 # done
 
