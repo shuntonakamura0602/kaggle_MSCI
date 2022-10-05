@@ -56,7 +56,7 @@ MSCIに参加したときのkaggle日記
 ## 20221003
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
 * cite_inputs:遺伝子発現レベル(行：細胞id,列：遺伝子id)
-* cite_targets:タンパク質発現レベル(行：細胞id,列：遺伝子id)
+* cite_targets:タンパク質発現レベル(行：細胞id,列：遺伝子id(タンパク質))
 * multi_inputs:オープンクロマチン領域(行：細胞id,列：遺伝子id)
 * multi_targets:遺伝子発現レベル(行：細胞id,列：遺伝子id)
 
