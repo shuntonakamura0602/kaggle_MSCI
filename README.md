@@ -55,7 +55,7 @@ MSCIに参加したときのkaggle日記
 # Log
 
 ## 20221005
-<img width="839" alt="スクリーンショット 2022-10-05 12 26 01" src="https://user-images.githubusercontent.com/63344524/193975300-bc5ead0a-88b3-4ad8-bace-654bc2227166.png">
+<img width="839" alt="スクリーンショット 2022-10-05 12 26 01" src="https://user-images.githubusercontent.com/63344524/193975652-88d13f45-a373-4e9b-8ba7-691c74524736.png">
 
 ## 20221003
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
