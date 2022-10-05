@@ -16,7 +16,7 @@ MSCIに参加したときのkaggle日記
 * NNで次元削減
 * testのdonor4で擬似ラベリング
 * 逆変換して生データにもどしてNNに流す
-* ノイズ
+* ノイズが多い(batch　effectによる)ならdartを試す
 
 # done
 
@@ -59,10 +59,10 @@ MSCIに参加したときのkaggle日記
 <img width="839" alt="スクリーンショット 2022-10-05 12 26 01" src="https://user-images.githubusercontent.com/63344524/193975652-88d13f45-a373-4e9b-8ba7-691c74524736.png">
 
 * cite targetはドナーごと・dayごとでそれぞれ分布が異なっている(グレー：全体の分布,オレンジ：指定した分布)
-
 * cite private:day2・3・4のdonor1・2・3を学習して、day7のdonor1・2・3・4を予測
-
 * cite cv:day2のdonor1・2を学習して、day3のdonor1・2・3を予測(これをdayやdonorをずらした回数おこなう)しかし、計算量を節約するためday2・3のdonor1・2を学習してday4のdonor1・2・3を予測(donorをずらす)こともできる(https://aizine.ai/cross-validation0910/)
+* batch effect:異なる実験環境（バッチ）で計測されたデータの場合、同じ臓器・細胞であっても、バッチ間でデータに大きく差が生じる
+* 特にsingle-cell RNA-Seqの場合、低発現の遺伝子は検出限界により、計測されづらくなる"ドロップアウト"現象があり、実験プロトコルにより、ドロップアウトの程度が全く異なる。そのため、異なるsingle-cell RNA-Seq実験同士、またはsingle-cell RNA-Seqとbulk-cell RNA-Seq同士では、そのままでは正当な比較が行えないと考えられる。現在は、ドロップアウトするような低発現な遺伝子には着目せず、細胞型特異的に変動する遺伝子にのみ着目し、細胞型を同定するためのアルゴリズムを開発している。
 
 ## 20221003
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
