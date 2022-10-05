@@ -24,6 +24,7 @@ MSCIに参加したときのkaggle日記
 
 # design
 
+
 * 分析設計
 
 問題の理解:cite;遺伝子発現レベル>タンパク質発現レベル,multi;オープンクロマチン領域>遺伝子発現レベル
@@ -52,6 +53,9 @@ MSCIに参加したときのkaggle日記
 
 
 # Log
+
+## 20221005
+<img width="839" alt="スクリーンショット 2022-10-05 12 26 01" src="https://user-images.githubusercontent.com/63344524/193975300-bc5ead0a-88b3-4ad8-bace-654bc2227166.png">
 
 ## 20221003
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
