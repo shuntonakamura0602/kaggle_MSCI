@@ -59,9 +59,9 @@ MSCIに参加したときのkaggle日記
 
 * cite targetはドナーごと・dayごとでそれぞれ分布が異なっている(グレー：全体の分布,オレンジ：指定した分布)
 
-* cite private:day2・3・4のdonor1~3を学習して、day7のdonor1~4を予測
+* cite private:day2・3・4のdonor1・2・3を学習して、day7のdonor1・2・3・4を予測
 
-* cite cv:day2のdonor1~2を学習して、day3のdonor1~3を予測(これをdayやdonorをずらした回数おこなう)しかし、計算量を節約するためday2・3のdonor1~2を学習してday4のdonor1~3を予測(donorをずらす)こともできる(https://aizine.ai/cross-validation0910/)
+* cite cv:day2のdonor1・2を学習して、day3のdonor1・2・3を予測(これをdayやdonorをずらした回数おこなう)しかし、計算量を節約するためday2・3のdonor1・2を学習してday4のdonor1・2・3を予測(donorをずらす)こともできる(https://aizine.ai/cross-validation0910/)
 
 ## 20221003
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
