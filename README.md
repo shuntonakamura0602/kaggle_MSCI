@@ -17,6 +17,7 @@ MSCIに参加したときのkaggle日記
 * testのdonor4で擬似ラベリング
 * 逆変換して生データにもどしてNNに流す
 * ノイズが多い(batch　effectによる)ならdartを試す
+* adversal validationの応用:dayごとにtargetを設定して説明能力の低い特徴量を選択する。なぜなら日付にロバストな特徴量だから(https://blog.amedama.jp/entry/adversarial-validation)
 
 # done
 
@@ -56,6 +57,7 @@ MSCIに参加したときのkaggle日記
 # Log
 ## 20221007
 * kaggleに質問を投稿した(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/358209)
+
 
 ## 20221005
 * メタデータの分布
