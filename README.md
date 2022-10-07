@@ -70,6 +70,22 @@ MSCIに参加したときのkaggle日記
 * 前駆細胞:幹細胞は前駆細胞を経て最終分化細胞へと分化するため、前駆細胞を幹細胞と最終分化細胞の中間に位置する細胞と捉えることができます。
 * multiome:クロマチンアクセシビリティ(DNAの読み取り可能性)と遺伝子発現(RNAの量)を測定する(https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression)
 * citeseq:遺伝子発現と表面のタンパク質レベルを測定する(https://www.biolegend.com/ja-jp/products/totalseq-b-human-universal-cocktail-v1dot0-20960)(https://support.10xgenomics.com/permalink/getting-started-single-cell-gene-expression-with-feature-barcoding-technology)
+* 細胞の種類：RNA 遺伝子発現に基づく予備的な細胞タイプのアノテーションを行った細胞タイプのアノテーションは不正確な技術であり、連続データに離散的なラベルを割り当てることは限界があることに注意してください。これらのラベルを予測に使用する必要はなく、主に探索的な解析のガイドとして提供されています。
+HSC = Hematoploetic Stem Cell（造血幹細胞）
+EryP = Erythrocyte Progenitor（赤血球前駆体）
+NeuP = Neutrophil Progenitor（好中球前駆体）
+MasP = Mast Cell Progenitor（マスト細胞前駆体）
+MkP = Megakaryocyte Progenitor（巨核球前駆体）
+BP = B-Cell Progenitor（B細胞前駆体）
+MoP = Monocyte Progenitor（単球前駆体）
+hidden
+NOTE: ○○前駆体（前駆細胞）は造血幹細胞から○○細胞に分化する途中の状態の細胞です。細胞の時間変化の不連続な状態に名前を付けているだけなので予測に使う必要はないとされています。しかし、一時的な分類であっても問題を解くにあたって情報を整理することは役に立つかもしれないので、造血幹細胞の分化の略式系統樹を記しておきます。
+HSC ――> 骨髄系前駆細胞 -> EryP
+　　　|　　　　　　　　　-> MasP
+　　　|　　　　　　　　　-> MkP
+　　　|　　　　　　　　　-> 骨髄芽球 ――> NeuP
+　　　|　　　　　　　　　　　　　　　――> MoP
+　　　―> リンパ系前駆細胞 -> BP
 
 
 ## 20221005
