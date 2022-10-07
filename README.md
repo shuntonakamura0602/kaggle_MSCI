@@ -68,6 +68,8 @@ MSCIに参加したときのkaggle日記
 * このコンペのデータセットは、4人の健康なヒトドナーから分離した動員末梢CD34+造血幹細胞および前駆細胞（HSPCs）から収集した単一細胞マルチオミクスデータから構成されています。
 * 動員末梢CD34:骨髄由来の前駆細胞、特に造血および内皮前駆細胞のマーカーです。
 * 前駆細胞:幹細胞は前駆細胞を経て最終分化細胞へと分化するため、前駆細胞を幹細胞と最終分化細胞の中間に位置する細胞と捉えることができます。
+* multiome:クロマチンアクセシビリティ(DNAの読み取り可能性)と遺伝子発現(RNAの量)を測定する(https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression)
+* citeseq:遺伝子発現と表面のタンパク質レベルを測定する(https://www.biolegend.com/ja-jp/products/totalseq-b-human-universal-cocktail-v1dot0-20960)(https://support.10xgenomics.com/permalink/getting-started-single-cell-gene-expression-with-feature-barcoding-technology)
 
 
 ## 20221005
