@@ -54,6 +54,8 @@ MSCIに参加したときのkaggle日記
 
 
 # Log
+## 20221007
+* kaggleに質問を投稿した(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/358209)
 
 ## 20221005
 * メタデータの分布
