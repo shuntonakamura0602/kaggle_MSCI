@@ -70,7 +70,7 @@ MSCIに参加したときのkaggle日記
 * 前駆細胞:幹細胞は前駆細胞を経て最終分化細胞へと分化するため、前駆細胞を幹細胞と最終分化細胞の中間に位置する細胞と捉えることができます。
 * multiome:クロマチンアクセシビリティ(DNAの読み取り可能性)と遺伝子発現(RNAの量)を測定する(https://www.10xgenomics.com/products/single-cell-multiome-atac-plus-gene-expression)
 * citeseq:遺伝子発現と表面のタンパク質レベルを測定する(https://www.biolegend.com/ja-jp/products/totalseq-b-human-universal-cocktail-v1dot0-20960)(https://support.10xgenomics.com/permalink/getting-started-single-cell-gene-expression-with-feature-barcoding-technology)
-* 細胞の種類：RNA 遺伝子発現に基づく予備的な細胞タイプのアノテーションを行った細胞タイプのアノテーションは不正確な技術であり、連続データに離散的なラベルを割り当てることは限界があることに注意してください。これらのラベルを予測に使用する必要はなく、主に探索的な解析のガイドとして提供されています。
+* 細胞の種類：RNA 遺伝子発現に基づく予備的な細胞タイプのアノテーションを行った細胞タイプのアノテーションは不正確な技術であり、連続データに離散的なラベルを割り当てることは限界があることに注意してください。これらのラベルを予測に使用する必要はなく、主に探索的な解析のガイドとして提供されています。(https://www.nature.com/articles/ncb3493)
 HSC = Hematoploetic Stem Cell（造血幹細胞）
 EryP = Erythrocyte Progenitor（赤血球前駆体）
 NeuP = Neutrophil Progenitor（好中球前駆体）
@@ -86,7 +86,19 @@ HSC ――> 骨髄系前駆細胞 -> EryP
 　　　|　　　　　　　　　-> 骨髄芽球 ――> NeuP
 　　　|　　　　　　　　　　　　　　　――> MoP
 　　　―> リンパ系前駆細胞 -> BP
+ 
+* train/test_multi_inputs.h5:ATAC-seqピーク数をデフォルトのlog(TF) * log(IDF) 出力（DNA）を用いてTF-IDF変換したもの。行は細胞、列はアクセスレベル(DNA)を測定したゲノム上の位置（ここでは10x References - 2020-A (July 7, 2020) で提供した参照ゲノムGRCh38のゲノム座標で特定）に相当する。
+NOTE: TF-IDF変換：統計量への変換。この文脈ではDNA配列において特定の配列がいかに重要なのかを示す指標への変換。（ただしDNA配列の区切りがどこにあるのか理解していません）TFは特定配列の出現頻度、IDFは各区切りで特定配列が出現する割合で log(TF)∗log(IDF)で表す。
+NOTE: ゲノム座標：ゲノム座標は参照ゲノムの染色体名や開始位置、および終了位置が次の形式で含まれたもの。chr1:1234570-1234870
 
+* train_multi_targets.h5:RNA遺伝子発現レベル（同一細胞のライブラリサイズ正規化およびlog1p変換したカウント）。
+NOTE: ライブラリサイズ正規化：同一細胞内の総和が１になるような正規化。
+NOTE: log1p変換： f(x)=log(x+1)
+
+* train/test_cite_inputs.h5:RNAのライブラリサイズ正規化およびlog1p変換されたカウント（遺伝子発現量）で、行は細胞、列は{gene_name}_{gene_ensemble-ids}で与えられた遺伝子に対応する。
+
+* train_cite_targets.h5:dsbで正規化された同じ細胞の表面タンパク質レベル。
+NOTE: dsb：たんぱく質信号の背景処理 
 
 ## 20221005
 * メタデータの分布
