@@ -61,7 +61,14 @@ BP = B-Cell Progenitor（B細胞前駆体）
 MoP = Monocyte Progenitor（単球前駆体）
 hidden
 
-        - train/test_multi_inputs.h5:ATAC-seqピーク数をデフォルトのlog(TF) * log(IDF) 出力（DNA）を用いてTF-IDF変換したもの。行は細胞、列はアクセスレベル(DNA)を測定したゲノム上の位置（ここでは10x References - 2020-A (July 7, 2020) で提供した参照ゲノムGRCh38のゲノム座標で特定）に相当する
+        - train/test_multi_inputs.h5:ATAC-seqピーク数をデフォルトのlog(TF) * log(IDF) 出力（DNA）を用いてTF-IDF変換したもの。行は細胞、列はアクセスレベル(DNA)を測定したゲノム上の位置（ここでは10x References - 2020-A (July 7, 2020) で提供した参照ゲノムGRCh38のゲノム座標で特定）に相当する。NOTE: TF-IDF変換：統計量への変換。この文脈ではDNA配列において特定の配列がいかに重要なのかを示す指標への変換。（ただしDNA配列の区切りがどこにあるのか理解していません）TFは特定配列の出現頻度、IDFは各区切りで特定配列が出現する割合で log(TF)∗log(IDF)で表す。
+NOTE: ゲノム座標：ゲノム座標は参照ゲノムの染色体名や開始位置、および終了位置が次の形式で含まれたもの。chr1:1234570-1234870
+
+        - train_multi_targets.h5:RNA遺伝子発現レベル（同一細胞のライブラリサイズ正規化およびlog1p変換したカウント）NOTE: ライブラリサイズ正規化：同一細胞内の総和が１になるような正規化NOTE: log1p変換： f(x)=log(x+1)
+        - train/test_cite_inputs.h5:RNAのライブラリサイズ正規化およびlog1p変換されたカウント（遺伝子発現量）で、行は細胞、列は{gene_name}_{gene_ensemble-ids}で与えられた遺伝子に対応する。
+        - train_cite_targets.h5:dsbで正規化された同じ細胞の表面タンパク質レベル。
+NOTE: dsb：たんぱく質信号の背景処理 
+
 
 * バリデーション設計
 
@@ -91,22 +98,6 @@ hidden
 * kaggleに質問を投稿した(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/358209)
 * single-cell genomics:数千の遺伝子を一度に測定できるシステム
 
-
-
-
- 
-* train/test_multi_inputs.h5:ATAC-seqピーク数をデフォルトのlog(TF) * log(IDF) 出力（DNA）を用いてTF-IDF変換したもの。行は細胞、列はアクセスレベル(DNA)を測定したゲノム上の位置（ここでは10x References - 2020-A (July 7, 2020) で提供した参照ゲノムGRCh38のゲノム座標で特定）に相当する。
-NOTE: TF-IDF変換：統計量への変換。この文脈ではDNA配列において特定の配列がいかに重要なのかを示す指標への変換。（ただしDNA配列の区切りがどこにあるのか理解していません）TFは特定配列の出現頻度、IDFは各区切りで特定配列が出現する割合で log(TF)∗log(IDF)で表す。
-NOTE: ゲノム座標：ゲノム座標は参照ゲノムの染色体名や開始位置、および終了位置が次の形式で含まれたもの。chr1:1234570-1234870
-
-* train_multi_targets.h5:RNA遺伝子発現レベル（同一細胞のライブラリサイズ正規化およびlog1p変換したカウント）。
-NOTE: ライブラリサイズ正規化：同一細胞内の総和が１になるような正規化。
-NOTE: log1p変換： f(x)=log(x+1)
-
-* train/test_cite_inputs.h5:RNAのライブラリサイズ正規化およびlog1p変換されたカウント（遺伝子発現量）で、行は細胞、列は{gene_name}_{gene_ensemble-ids}で与えられた遺伝子に対応する。
-
-* train_cite_targets.h5:dsbで正規化された同じ細胞の表面タンパク質レベル。
-NOTE: dsb：たんぱく質信号の背景処理 
 
 ## 20221005
 * メタデータの分布
