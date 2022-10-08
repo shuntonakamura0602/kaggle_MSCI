@@ -97,6 +97,7 @@ NOTE: dsb：たんぱく質信号の背景処理
 * 特徴量が多すぎるため、adversal validationはやめることにした
 * publicとprivateのデータの分け方が違うため,privateを反映したクロスバリデーションが必要
     - privateは既知のドナー3人と未知のドナー1人の将来のデータで構成されている.そのため,valデータセットは最終日の既知のドナー2人と未知のドナー1人で構成されるべき(つまり3fold)
+* cvの構想を書いた
 
 ## 20221007
 * kaggleに質問を投稿した(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/358209)
