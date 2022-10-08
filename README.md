@@ -18,6 +18,7 @@ MSCIに参加したときのkaggle日記
 * 逆変換して生データにもどしてNNに流す
 * ノイズが多い(batch　effectによる)ならdartを試す
 * adversal validationの応用:dayごとにtargetを設定して説明能力の低い特徴量を選択する。なぜなら日付にロバストな特徴量だから(https://blog.amedama.jp/entry/adversarial-validation)
+* ノイズの処理:統計的処理or異常検知
 
 # done
 
