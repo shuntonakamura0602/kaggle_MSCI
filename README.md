@@ -93,6 +93,7 @@ NOTE: dsb：たんぱく質信号の背景処理
 
 # Log
 ## 20221008
+* DNA・遺伝子・染色体の違い:DNA=文字,遺伝子=文章,染色体=本 DNAはデオキシリボ核酸という「物質」　遺伝子は体を作るために必要な情報　染色体はDNAや遺伝子が集まったもの,人は23対46本の染色体を持っている
 
 ## 20221007
 * kaggleに質問を投稿した(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/358209)
