@@ -92,6 +92,9 @@ NOTE: dsb：たんぱく質信号の背景処理
 
 
 # Log
+## 20221010
+* skip connectionについて(https://www.slideshare.net/yamatookamoto5/skip-connection-neural-network)
+
 ## 20221009
 * cv改善・実装した
 
