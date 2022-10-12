@@ -19,6 +19,8 @@ MSCIに参加したときのkaggle日記
 * ノイズが多い(batch　effectによる)ならdartを試す
 * adversal validationの応用:dayごとにtargetを設定して説明能力の低い特徴量を選択する。なぜなら日付にロバストな特徴量だから(https://blog.amedama.jp/entry/adversarial-validation)
 * ノイズの処理:統計的処理or異常検知
+* データを多くの次元に圧縮して,Attentionを適応.Attentionが特徴量抽出の役割を持つのではないか？
+* LSTMでの実装
 
 # done
 
@@ -92,6 +94,8 @@ NOTE: dsb：たんぱく質信号の背景処理
 
 
 # Log
+## 20221012
+
 ## 20221010
 * skip connectionについて(https://www.slideshare.net/yamatookamoto5/skip-connection-neural-network)
 * code読んでbookmark付ける
