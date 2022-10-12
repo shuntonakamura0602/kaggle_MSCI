@@ -21,6 +21,8 @@ MSCIに参加したときのkaggle日記
 * ノイズの処理:統計的処理or異常検知
 * データを多くの次元に圧縮して,Attentionを適応.Attentionが特徴量抽出の役割を持つのではないか？
 * LSTMでの実装
+* テーブルデータを画像化してCNNを扱う(https://qiita.com/hirune924/items/82fccd08865f7467339d)
+* 特徴量エンジニアリング(差分特徴量について)(https://blog.recruit.co.jp/rtc/2020/12/23/kaggle_moa/)
 
 # done
 
