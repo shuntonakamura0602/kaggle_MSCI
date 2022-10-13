@@ -88,6 +88,9 @@ NOTE: dsb：たんぱく質信号の背景処理
 
 * バリデーション設計
 
+![To Doリスト-82 2](https://user-images.githubusercontent.com/63344524/195491700-856535ae-5e4f-404e-986c-fad972c11cde.jpg)
+
+
 * モデル学習
 
 * アンサンブル
