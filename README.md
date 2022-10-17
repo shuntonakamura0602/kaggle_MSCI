@@ -54,6 +54,8 @@ MSCIに参加したときのkaggle日記
 
 
 # past solution
+* 去年のコンペの解法(https://www.youtube.com/watch?v=ZXDILOyiy7A)
+* single-cell dataについて(https://openproblems.bio/neurips_docs/data/about_multimodal/)
 
 # design
 
