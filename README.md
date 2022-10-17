@@ -33,6 +33,9 @@ MSCIに参加したときのkaggle日記
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
 
+# everyone's solution
+* knn approach(https://github.com/adavoudi/msci_knn)
+
 # past solution
 
 # design
