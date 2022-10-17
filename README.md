@@ -33,6 +33,7 @@ MSCIに参加したときのkaggle日記
 # discussion
 * privateLBとpublicLBに適したcross validationは異なる(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
 * PCAは疎行列を扱うことができない,TruncatedSVDは疎行列を扱うことができる.(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348377)
+* fold間の標準偏差を最小化することはモデルをロバストさせ,汎化能力を高める.(https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/352800)
 
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
