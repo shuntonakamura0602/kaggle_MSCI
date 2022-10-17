@@ -58,6 +58,8 @@ MSCIに参加したときのkaggle日記
 * 損失関数は何をつかうべきか(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346518)
 * 後処理について(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/349132)
 * カスタム損失関数(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347595)
+* 次元削減法一覧(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348233)
+* 検体は1人の女性(Donor 13176)と3人の男性である
 
 <img width="749" alt="スクリーンショット 2022-10-17 13 31 37" src="https://user-images.githubusercontent.com/63344524/196090323-1adfc066-fe18-4199-8558-0e8679a31b8f.png">
 
