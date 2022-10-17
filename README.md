@@ -55,6 +55,8 @@ MSCIに参加したときのkaggle日記
 * privateとpublicはかなり違う、ドメインシフトに対してロバストである必要がある(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
 * {gene_names}_{gene_ensemble-ids}に関して、どちらもgeneの名前である(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346761)
 * citeデータの負の値は0に変換したほうがよさそう(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346210)
+* 損失関数は何をつかうべきか(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/346518)
+* 
 
 <img width="749" alt="スクリーンショット 2022-10-17 13 31 37" src="https://user-images.githubusercontent.com/63344524/196090323-1adfc066-fe18-4199-8558-0e8679a31b8f.png">
 
