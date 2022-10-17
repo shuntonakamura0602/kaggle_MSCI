@@ -35,6 +35,7 @@ MSCIに参加したときのkaggle日記
 * PCAは疎行列を扱うことができない,TruncatedSVDは疎行列を扱うことができる.(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348377)
 * fold間の標準偏差を最小化することはモデルをロバストさせ,汎化能力を高める.(https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/352800)
 * 決定木モデルはcv↑lb↓になりやすい(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/352567)
+* シングルセルデータ解析に使われるpythonパッケージ(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/344816)
 
 <img width="749" alt="スクリーンショット 2022-10-17 13 31 37" src="https://user-images.githubusercontent.com/63344524/196090323-1adfc066-fe18-4199-8558-0e8679a31b8f.png">
 
