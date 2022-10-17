@@ -72,7 +72,7 @@ MSCIに参加したときのkaggle日記
 * 特にsingle-cell RNA-Seqの場合、低発現の遺伝子は検出限界により、計測されづらくなる"ドロップアウト"現象があり、実験プロトコルにより、ドロップアウトの程度が全く異なる。そのため、異なるsingle-cell RNA-Seq実験同士、またはsingle-cell RNA-Seqとbulk-cell RNA-Seq同士では、そのままでは正当な比較が行えないと考えられる。現在は、ドロップアウトするような低発現な遺伝子には着目せず、細胞型特異的に変動する遺伝子にのみ着目し、細胞型を同定するためのアルゴリズムを開発している.
 * DNA・遺伝子・染色体の違い:DNA=文字,遺伝子=文章,染色体=本 DNAはデオキシリボ核酸という「物質」　遺伝子は体を作るために必要な情報　染色体はDNAや遺伝子が集まったもの,人は23対46本の染色体を持っている
 * single-cellに関する論文一覧(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/344686)
-* 造血幹細胞からの分化(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348117)
+* 造血幹細胞からの分化(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/348117)(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/359809)
 
 # EDA
 * すべての行が0のカラムが存在している(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350514)
