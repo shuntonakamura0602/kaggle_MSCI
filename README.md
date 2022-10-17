@@ -38,6 +38,7 @@ MSCIに参加したときのkaggle日記
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
 
 # EDA
+* すべての行が0のカラムが存在している(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350514)
 
 # everyone's solution
 * knn approach(https://github.com/adavoudi/msci_knn)
