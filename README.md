@@ -44,6 +44,7 @@ MSCIに参加したときのkaggle日記
 
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
+* bioinformaticiansがsingle-cell dataを解析する場合4つの前処理をおこなう 1.低品質の細胞のフィルタリング 2.データの正規化(ホストによってすでに行われている) 3.次元削減・特徴量選択 4.特徴量のスケーリング
 
 # EDA
 * すべての行が0のカラムが存在している(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350514)
