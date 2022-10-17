@@ -30,8 +30,13 @@ MSCIに参加したときのkaggle日記
 # paper
 * 参考にした論文の一覧
 
+# discussion
+* privateLBとpublicLBに適したcross validationは異なる
+
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
+
+# EDA
 
 # everyone's solution
 * knn approach(https://github.com/adavoudi/msci_knn)
