@@ -36,6 +36,10 @@ MSCIに参加したときのkaggle日記
 * fold間の標準偏差を最小化することはモデルをロバストさせ,汎化能力を高める.(https://www.kaggle.com/competitions/feedback-prize-english-language-learning/discussion/352800)
 * 決定木モデルはcv↑lb↓になりやすい(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/352567)
 
+<img width="749" alt="スクリーンショット 2022-10-17 13 31 37" src="https://user-images.githubusercontent.com/63344524/196090323-1adfc066-fe18-4199-8558-0e8679a31b8f.png">
+
+<img width="749" alt="スクリーンショット 2022-10-17 13 32 05" src="https://user-images.githubusercontent.com/63344524/196090343-d5418b87-4e12-469a-86cf-359cedce300c.png">
+
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
 
