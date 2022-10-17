@@ -30,6 +30,10 @@ MSCIに参加したときのkaggle日記
 # paper
 * 参考にした論文の一覧
 
+# domain knowledge
+
+# past solution
+
 # design
 
 
