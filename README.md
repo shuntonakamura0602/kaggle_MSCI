@@ -70,6 +70,7 @@ MSCIに参加したときのkaggle日記
 # EDA
 * すべての行が0のカラムが存在している(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350514)
 * オープンクロマチン領域に関する知見(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/349766)
+* 77位のEDA一覧(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/344824)
 * メタデータの分布
 <img width="862" alt="スクリーンショット 2022-10-05 16 58 40" src="https://user-images.githubusercontent.com/63344524/194189598-d9e0f85d-1d35-4d71-8746-8c8646a1aa99.png">
 * 細胞の分布
