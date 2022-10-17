@@ -31,7 +31,7 @@ MSCIに参加したときのkaggle日記
 * 参考にした論文の一覧
 
 # discussion
-* privateLBとpublicLBに適したcross validationは異なる
+* privateLBとpublicLBに適したcross validationは異なる(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/347202)
 
 # domain knowledge
 * CDとはなにか(https://en.wikipedia.org/wiki/Cluster_of_differentiation)
