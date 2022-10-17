@@ -47,6 +47,7 @@ MSCIに参加したときのkaggle日記
 
 # EDA
 * すべての行が0のカラムが存在している(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350514)
+* オープンクロマチン領域に関する知見(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/349766)
 
 # everyone's solution
 * knn approach(https://github.com/adavoudi/msci_knn)
