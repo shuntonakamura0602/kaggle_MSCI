@@ -23,6 +23,7 @@ MSCIに参加したときのkaggle日記
 * LSTMでの実装
 * テーブルデータを画像化してCNNを扱う(https://qiita.com/hirune924/items/82fccd08865f7467339d)
 * 特徴量エンジニアリング(差分特徴量について)(https://blog.recruit.co.jp/rtc/2020/12/23/kaggle_moa/)
+* 位置情報が関係ある
 
 # done
 
