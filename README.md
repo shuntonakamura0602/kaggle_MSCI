@@ -41,6 +41,7 @@ MSCIに参加したときのkaggle日記
 
 # everyone's solution
 * knn approach(https://github.com/adavoudi/msci_knn)
+* より良いアンサンブル手法(https://www.kaggle.com/competitions/open-problems-multimodal/discussion/350222)
 
 # past solution
 
