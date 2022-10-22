@@ -37,9 +37,10 @@ MSCIに参加したときのkaggle日記
 * テーブルデータを画像化してCNNを扱う(https://qiita.com/hirune924/items/82fccd08865f7467339d)
 * 特徴量エンジニアリング(差分特徴量について)(https://blog.recruit.co.jp/rtc/2020/12/23/kaggle_moa/)
 * 位置情報が関係ある
-* adversal validation:testデータに似たvalidationデータを作成する手法(https://www.acceluniverse.com/blog/developers/2020/01/kaggleadversarial-validation.html#:~:text=Adversarial%20Validation%E3%81%AFTrain%E3%83%87%E3%83%BC%E3%82%BF,%E3%81%AB%E4%BD%BF%E3%82%8F%E3%82%8C%E3%82%8B%E6%89%8B%E6%B3%95%E3%81%A7%E3%81%99%E3%80%82)
+
 
 # done
+* adversal validation:testデータに似たvalidationデータを作成する手法
 
 # paper(参考にした論文の一覧)
 * skip connectionについて(https://www.slideshare.net/yamatookamoto5/skip-connection-neural-network)
@@ -153,6 +154,9 @@ MSCIに参加したときのkaggle日記
 
 
 # Log
+## 20221022
+* citeにcross validationを行なった(auc:0.97>0.67)
+
 ## 20221017
 * discussionまとめた
 * github整理した
