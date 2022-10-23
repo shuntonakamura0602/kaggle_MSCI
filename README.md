@@ -27,11 +27,11 @@ MSCIに参加したときのkaggle日記
 |keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|cite:original data|
 |keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|cite:adv|
 |keras3+ridge2.csv|0.87134|0.598|0.79261808|0.798|cite:adv2|
-|keras4+ridge2.csv|0.88221|-|-|-|cite:adv3|
-|keras5+ridge2.csv|0.88006|-|-|-|cite:adv4|
-|keras6+ridge2.csv|0.87623|-|-|-|cite:adv5|
-|keras7+ridge2.csv|0.87235|-|-|-|cite:adv6|
-|lgbm5+ridge2.csv| 0.87529|-|-|-|cite:adv|
+|keras4+ridge2.csv|0.88221|0.598|-|-|cite:adv3|
+|keras5+ridge2.csv|0.88006|0.598|-|-|cite:adv4|
+|keras6+ridge2.csv|0.87623|0.598|0.7960999|-|cite:adv5|
+|keras7+ridge2.csv|0.87235|0.598|-|-|cite:adv6|
+|lgbm5+ridge2.csv| 0.87529|0.598|-|-|cite:adv|
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
