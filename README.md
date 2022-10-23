@@ -21,14 +21,14 @@ MSCIに参加したときのkaggle日記
 
 * cv変更後
 
-|filename|cite_cv|multi_cv|all_cv|lb|
-|--------|-------|--------|------|--|
-|lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|
-|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|
-|keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|
-|keras3.csv|0.87134|-|-|-|
-|keras4.csv|0.88221|-|-|-|
-|lgbm5.csv| 0.87529|-|-|-|
+|filename|cite_cv|multi_cv|all_cv|lb|comment|
+|--------|-------|--------|------|--|-------|
+|lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|-|
+|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|cite:original data|
+|keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|cite:adv|
+|keras3.csv|0.87134|-|-|-|cite:adv2|
+|keras4.csv|0.88221|-|-|-|cite:adv3|
+|lgbm5.csv| 0.87529|-|-|-|cite:adv|
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
