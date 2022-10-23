@@ -23,6 +23,9 @@ MSCIに参加したときのkaggle日記
 |--------|-------|--------|------|--|
 |lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|
 
+# dataset detail
+* adval~ :adversal validationを行なったもの
+
 # アイデア
 
 # do
@@ -156,6 +159,7 @@ MSCIに参加したときのkaggle日記
 # Log
 ## 20221022
 * citeにcross validationを行なった(auc:0.97>0.67)
+* multiにcrossvalidationを行なった(auc:0.97>0.71)
 
 ## 20221017
 * discussionまとめた
