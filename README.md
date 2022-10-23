@@ -167,9 +167,12 @@ MSCIに参加したときのkaggle日記
 
 
 # Log
+## 20221023
+* adversal validation > trainとtestで分布の違う特徴量の削減 > CV↓PB↑
+
 ## 20221022
-* citeにcross validationを行なった(auc:0.97>0.67)
-* multiにcrossvalidationを行なった(auc:0.97>0.71)
+* citeにadversal validationを行なった(auc:0.97>0.67)
+* multiにadversal validationを行なった(auc:0.97>0.71)
 
 ## 20221017
 * discussionまとめた
