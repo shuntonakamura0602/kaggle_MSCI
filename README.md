@@ -24,6 +24,7 @@ MSCIに参加したときのkaggle日記
 |filename|cite_cv|multi_cv|all_cv|lb|
 |--------|-------|--------|------|--|
 |lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|
+|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
