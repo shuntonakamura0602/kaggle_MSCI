@@ -32,6 +32,7 @@ MSCIに参加したときのkaggle日記
 |keras6+ridge2.csv|0.87623|0.598|0.7960999|0.801|cite:adv5[:7500] multi:original|
 |keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000] multi:original|
 |lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|0.803|cite:adv multi:original|
+|keras8+ridge2.csv||0.598|||cite:adv7[:1000] multi:original|
 
 * lgbm4 < lgbm5 なのでgbdtにおいてadversalは成功している
 * keras1 < keras_ となるadvを作成する
