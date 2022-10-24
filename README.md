@@ -29,9 +29,13 @@ MSCIに参加したときのkaggle日記
 |keras3+ridge2.csv|0.87134|0.598|0.79261808|0.798|cite:adv2 multi:original|
 |keras4+ridge2.csv|0.88221|0.598|0.80035751|0.805|cite:adv3[:2500] multi:original|
 |keras5+ridge2.csv|0.88006|0.598|0.79882671|0.803|cite:adv4[:5000] multi:original|
-|keras6+ridge2.csv|0.87623|0.598|0.7960999|0.755|cite:adv5[:7500] multi:original|
+|keras6+ridge2.csv|0.87623|0.598|0.7960999|0.801|cite:adv5[:7500] multi:original|
 |keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000] multi:original|
 |lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|0.803|cite:adv multi:original|
+
+* lgbm4 < lgbm5 なのでgbdtにおいてadversalは成功している
+* keras1 < keras_ となるadvを作成する
+* さまざまなadvでアンサンブルする
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
