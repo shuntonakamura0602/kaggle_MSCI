@@ -23,15 +23,15 @@ MSCIに参加したときのkaggle日記
 
 |filename|cite_cv|multi_cv|all_cv|lb|comment|
 |--------|-------|--------|------|--|-------|
-|lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|-|
-|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|cite:original data|
-|keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|cite:adv|
-|keras3+ridge2.csv|0.87134|0.598|0.79261808|0.798|cite:adv2|
-|keras4+ridge2.csv|0.88221|0.598|0.80035751|0.805|cite:adv3[:2500]|
-|keras5+ridge2.csv|0.88006|0.598|0.79882671|0.803|cite:adv4[:5000]|
-|keras6+ridge2.csv|0.87623|0.598|0.7960999|0.755|cite:adv5[:7500]|
-|keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000]|
-|lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|-|cite:adv|
+|lgbm4ridge2.csv| 0.87536|0.598|0.79548032|0.803|cite:original multi:original|
+|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|cite:original multi:original|
+|keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|cite:adv multi:original|
+|keras3+ridge2.csv|0.87134|0.598|0.79261808|0.798|cite:adv2 multi:original|
+|keras4+ridge2.csv|0.88221|0.598|0.80035751|0.805|cite:adv3[:2500] multi:original|
+|keras5+ridge2.csv|0.88006|0.598|0.79882671|0.803|cite:adv4[:5000] multi:original|
+|keras6+ridge2.csv|0.87623|0.598|0.7960999|0.755|cite:adv5[:7500] multi:original|
+|keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000] multi:original|
+|lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|0.803|cite:adv multi:original|
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
