@@ -31,7 +31,7 @@ MSCIに参加したときのkaggle日記
 |keras5+ridge2.csv|0.88006|0.598|0.79882671|0.803|cite:adv4[:5000]|
 |keras6+ridge2.csv|0.87623|0.598|0.7960999|0.755|cite:adv5[:7500]|
 |keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000]|
-|lgbm5+ridge2.csv| 0.87529|0.598|-|-|cite:adv|
+|lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|-|cite:adv|
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
