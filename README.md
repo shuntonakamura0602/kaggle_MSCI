@@ -39,6 +39,7 @@ MSCIに参加したときのkaggle日記
 |keras8.csv|0.88354|dataset:adv7[:1000]|
 |keras9.csv|0.88476|dataset:original N_COMPONENT=128|
 |keras10.csv|0.88447|dataset:original N_COMPONENT=256|
+|keras11.csv||dataset:original N_COMPONENT=512|
 
 |filename|all_cv|lb|
 |--------|------|--|
