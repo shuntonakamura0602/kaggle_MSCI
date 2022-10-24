@@ -21,18 +21,37 @@ MSCIに参加したときのkaggle日記
 
 * cv変更後
 
-|filename|cite_cv|multi_cv|all_cv|lb|comment|
-|--------|-------|--------|------|--|-------|
-|lgbm4+ridge2.csv| 0.87536|0.598|0.79548032|0.803|cite:original multi:original|
-|lgbm5+ridge2.csv| 0.87529|0.598|0.79543048|0.803|cite:adv multi:original|
-|keras1+ridge2.csv|0.88511|0.598|0.80242232|0.805|cite:original multi:original|
-|keras2+ridge2.csv|0.85800|0.598|0.78312|0.790|cite:adv multi:original|
-|keras3+ridge2.csv|0.87134|0.598|0.79261808|0.798|cite:adv2 multi:original|
-|keras4+ridge2.csv|0.88221|0.598|0.80035751|0.805|cite:adv3[:2500] multi:original|
-|keras5+ridge2.csv|0.88006|0.598|0.79882671|0.803|cite:adv4[:5000] multi:original|
-|keras6+ridge2.csv|0.87623|0.598|0.7960999|0.801|cite:adv5[:7500] multi:original|
-|keras7+ridge2.csv|0.87235|0.598|0.79333719|0.798|cite:adv6[:10000] multi:original|
-|keras8+ridge2.csv|0.88354|0.598|0.80130448|0.805|cite:adv7[:1000] multi:original|
+|filename|multi_cv|comment|
+|--------|--------|-------|
+|ridge2.csv|0.598|dataset:original|
+
+|filename|cite_cv|comment|
+|--------|-------|-------|
+|lgbm4.csv|0.87536|dataset:original|
+|lgbm5.csv|0.87529|dataset:adv|
+|keras1.csv|0.88511|dataset:original|
+|keras2.csv|0.85800|dataset:adv|
+|keras3.csv|0.87134|dataset:adv2|
+|keras4.csv|0.88221|dataset:adv3[:2500]|
+|keras5.csv|0.88006|dataset:adv4[:5000]|
+|keras6.csv|0.87623|dataset:adv5[:7500]|
+|keras7.csv|0.87235|dataset:adv6[:10000]|
+|keras8.csv|0.88354|dataset:adv7[:1000]|
+|keras9.csv|0.88476|dataset:original N_COMPONENT=128|
+
+|filename|all_cv|lb|
+|--------|------|--|
+|lgbm4+ridge2.csv|0.79548032|0.803|
+|lgbm5+ridge2.csv|0.79543048|0.803|
+|keras1+ridge2.csv|0.80242232|0.805|
+|keras2+ridge2.csv|0.78312|0.790|
+|keras3+ridge2.csv|0.79261808|0.798|
+|keras4+ridge2.csv|0.80035751|0.805|
+|keras5+ridge2.csv|0.79882671|0.803|
+|keras6+ridge2.csv|0.7960999|0.801|
+|keras7+ridge2.csv|0.79333719|0.798|
+|keras8+ridge2.csv|0.80130448|0.805|
+
 
 * lgbm4 < lgbm5 なのでgbdtにおいてadversal validationは成功している
 * keras1 < keras_ となるadvを作成する
