@@ -76,6 +76,11 @@ MSCIに参加したときのkaggle日記
 * テーブルデータを画像化してCNNを扱う(https://qiita.com/hirune924/items/82fccd08865f7467339d)
 * 特徴量エンジニアリング(差分特徴量について)(https://blog.recruit.co.jp/rtc/2020/12/23/kaggle_moa/)
 * 位置情報が関係ある
+* Mish(活性化関数)使ってみる
+* 1D-CNN
+* BN
+* skip connection
+* GNN
 
 
 # done
