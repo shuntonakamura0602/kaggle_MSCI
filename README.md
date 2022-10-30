@@ -27,7 +27,7 @@ MSCIに参加したときのkaggle日記
 |keras2.csv|0.92117|-|dataset:svd512[:,:40]|
 |keras3.csv|0.89431|-|dataset:archive|
 |keras4.csv|0.89477|0.94175|dataset:archive|
-|||||
+|keras5.csv|0.92205|0.95701|dataset:svd512[:,:40]|
 |||||
 |||||
 |||||
