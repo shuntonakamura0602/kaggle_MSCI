@@ -70,7 +70,7 @@ MSCIに参加したときのkaggle日記
 |all-in-one2.csv|-|0.812|
 |keras12+keras2.csv|-|0.807|
 |keras12+keras3.csv|-|0.807|
-|keras13+keras4.csv|0.9078160||
+|keras13+keras4.csv|0.9078160|0.813|
 ||||
 ||||
 ||||
