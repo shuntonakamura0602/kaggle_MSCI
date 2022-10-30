@@ -47,21 +47,32 @@ MSCIに参加したときのkaggle日記
 |keras9.csv|0.88476|-|dataset:original N_COMPONENT=128|
 |keras10.csv|0.88447|-|dataset:original N_COMPONENT=256|
 |keras11.csv|0.88354|-|dataset:original N_COMPONENT=512|
-|keras12.csv|0.88684|-|dataset:svd512[:,:75]|
-|keras13.csv|0.88688|0.89409|dataset:svd512[:,:75]|
-|keras14.csv|0.88187|0.89152|dataset:svd512|
-|keras15.csv|0.88586|0.89410|dataset:svd512[:,:150]|
-|keras16.csv|0.88454|0.89327|dataset:svd512[:,:250]|
-|keras17.csv|0.88361|0.89241|dataset:svd512[:,:350]|
-|keras18.csv|0.88251|0.89192|dataset:svd512[:,:450]|
-|keras19.csv|0.88440|0.89307|dataset:svd256|
-|keras20.csv|0.88674|0.89419|dataset:svd256[:,:80]|
-|keras21.csv|0.88577|0.89373|dataset:svd256[:,:160]|
-|keras22.csv||||
-|keras23.csv||||
-|keras24.csv||||
-|keras25.csv||||
+|keras12.csv|0.88684|-|dataset:original-svd512[:,:75]|
+|keras13.csv|0.88688|0.89409|dataset:original-svd512[:,:75]|
+|keras14.csv|0.88187|0.89152|dataset:original-svd512|
+|keras15.csv|0.88586|0.89410|dataset:original-svd512[:,:150]|
+|keras16.csv|0.88454|0.89327|dataset:original-svd512[:,:250]|
+|keras17.csv|0.88361|0.89241|dataset:original-svd512[:,:350]|
+|keras18.csv|0.88251|0.89192|dataset:original-svd512[:,:450]|
+|keras19.csv|0.88440|0.89307|dataset:original-svd256|
+|keras20.csv|0.88674|0.89419|dataset:original-svd256[:,:80]|
+|keras21.csv|0.88577|0.89373|dataset:original-svd256[:,:160]|
+|keras22.csv|0.88598|0.89380|dataset:original-svd128|
+|keras23.csv|0.88668|0.89408|dataset:original-svd128[:,:84]|
+|keras24.csv|0.88690|0.89388|dataset:original-svd128[:,:42]|
+|keras25.csv|0.88688|0.89395|dataset:original-svd６４|
+|keras26.csv|0.88677|0.89335|dataset:original-svd６４[:,:３２]|
 |||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+
+
 
 |filename|all_pub_cv|lb|
 |--------|----------|--|
