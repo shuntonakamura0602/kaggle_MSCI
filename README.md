@@ -21,42 +21,42 @@ MSCIに参加したときのkaggle日記
 
 * cv変更後
 
-|filename|multi_cv|comment|
-|--------|--------|-------|
-|ridge2.csv|0.598|dataset:original|
-|keras2.csv|0.92117|dataset:svd512[:,:40]|
-|keras3.csv|0.89431|dataset:archive|
-||||
-||||
-||||
-||||
-||||
+|filename|multi_pri_cv|multi_pub_cv|comment|
+|--------|------------|------------|-------|
+|ridge2.csv|0.598|-|dataset:original|
+|keras2.csv|0.92117|-|dataset:svd512[:,:40]|
+|keras3.csv|0.89431|-|dataset:archive|
+|keras4.csv|0.89477|0.94175|dataset:archive|
+|||||
+|||||
+|||||
+|||||
 
-|filename|cite_cv|comment|
-|--------|-------|-------|
-|lgbm4.csv|0.87536|dataset:original|
-|lgbm5.csv|0.87529|dataset:adv|
-|keras1.csv|0.88511|dataset:original N_COMPONENT=64|
-|keras2.csv|0.85800|dataset:adv|
-|keras3.csv|0.87134|dataset:adv2|
-|keras4.csv|0.88221|dataset:adv3[:2500]|
-|keras5.csv|0.88006|dataset:adv4[:5000]|
-|keras6.csv|0.87623|dataset:adv5[:7500]|
-|keras7.csv|0.87235|dataset:adv6[:10000]|
-|keras8.csv|0.88354|dataset:adv7[:1000]|
-|keras9.csv|0.88476|dataset:original N_COMPONENT=128|
-|keras10.csv|0.88447|dataset:original N_COMPONENT=256|
-|keras11.csv|0.88354|dataset:original N_COMPONENT=512|
-|keras12.csv|0.88684|dataset:svd512[:,:75]|
-||||
-||||
-||||
-||||
-||||
-||||
+|filename|cite_pri_cv|cite_pub_cv|comment|
+|--------|-----------|-----------|-------|
+|lgbm4.csv|0.87536|-|dataset:original|
+|lgbm5.csv|0.87529|-|dataset:adv|
+|keras1.csv|0.88511|-|dataset:original N_COMPONENT=64|
+|keras2.csv|0.85800|-|dataset:adv|
+|keras3.csv|0.87134|-|dataset:adv2|
+|keras4.csv|0.88221|-|dataset:adv3[:2500]|
+|keras5.csv|0.88006|-|dataset:adv4[:5000]|
+|keras6.csv|0.87623|-|dataset:adv5[:7500]|
+|keras7.csv|0.87235|-|dataset:adv6[:10000]|
+|keras8.csv|0.88354|-|dataset:adv7[:1000]|
+|keras9.csv|0.88476|-|dataset:original N_COMPONENT=128|
+|keras10.csv|0.88447|-|dataset:original N_COMPONENT=256|
+|keras11.csv|0.88354|-|dataset:original N_COMPONENT=512|
+|keras12.csv|0.88684|-|dataset:svd512[:,:75]|
+|keras13.csv|0.88688|0.89409|dataset:svd512[:,:75]|
+|||||
+|||||
+|||||
+|||||
+|||||
 
-|filename|all_cv|lb|
-|--------|------|--|
+|filename|all_pub_cv|lb|
+|--------|----------|--|
 |lgbm4+ridge2.csv|0.79548032|0.803|
 |lgbm5+ridge2.csv|0.79543048|0.803|
 |keras1+ridge2.csv|0.80242232|0.805|
@@ -68,9 +68,9 @@ MSCIに参加したときのkaggle日記
 |keras7+ridge2.csv|0.79333719|0.798|
 |keras8+ridge2.csv|0.80130448|0.805|
 |all-in-one2.csv|-|0.812|
-|keras12+keras2.csv|0.8967270399999998|0.807|
-|keras12+keras3.csv|0.8889913599999999|0.807|
-||||
+|keras12+keras2.csv|0.8967270|0.807|
+|keras12+keras3.csv|0.8889913|0.807|
+|keras13+keras4.csv|||
 ||||
 ||||
 ||||
