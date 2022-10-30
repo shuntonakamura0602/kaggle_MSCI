@@ -25,6 +25,12 @@ MSCIに参加したときのkaggle日記
 |--------|--------|-------|
 |ridge2.csv|0.598|dataset:original|
 |keras2.csv|0.92117|dataset:svd512[:,:40]|
+|keras3.csv|0.89431|dataset:archive|
+||||
+||||
+||||
+||||
+||||
 
 |filename|cite_cv|comment|
 |--------|-------|-------|
@@ -42,6 +48,12 @@ MSCIに参加したときのkaggle日記
 |keras10.csv|0.88447|dataset:original N_COMPONENT=256|
 |keras11.csv|0.88354|dataset:original N_COMPONENT=512|
 |keras12.csv|0.88684|dataset:svd512[:,:75]|
+||||
+||||
+||||
+||||
+||||
+||||
 
 |filename|all_cv|lb|
 |--------|------|--|
@@ -55,6 +67,16 @@ MSCIに参加したときのkaggle日記
 |keras6+ridge2.csv|0.7960999|0.801|
 |keras7+ridge2.csv|0.79333719|0.798|
 |keras8+ridge2.csv|0.80130448|0.805|
+|all-in-one2.csv|-|0.812|
+|keras12+keras2.csv|0.8967270399999998|0.807|
+|keras12+keras3.csv|0.8889913599999999||
+||||
+||||
+||||
+||||
+||||
+||||
+
 
 
 * lgbm4 < lgbm5 なのでgbdtにおいてadversal validationは成功している
