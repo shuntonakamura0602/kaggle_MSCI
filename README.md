@@ -100,23 +100,23 @@ MSCIに参加したときのkaggle日記
 
 
 
-|filename|all_pub_cv|lb|
-|--------|----------|--|
-|lgbm4+ridge2.csv|-|0.803|
-|lgbm5+ridge2.csv|-|0.803|
-|keras1+ridge2.csv|-|0.805|
-|keras2+ridge2.csv|-|0.790|
-|keras3+ridge2.csv|-|0.798|
-|keras4+ridge2.csv|-|0.805|
-|keras5+ridge2.csv|-|0.803|
-|keras6+ridge2.csv|-|0.801|
-|keras7+ridge2.csv|-|0.798|
-|keras8+ridge2.csv|-|0.805|
-|all-in-one2.csv|-|0.812|
-|keras12+keras2.csv|-|0.807|
-|keras12+keras3.csv|-|0.807|
-|keras13+keras4.csv|-|0.813|
-|keras13+keras5.csv|0.82904|0.812|
+|filename|all_pri_cv|all_pub_cv|lb|
+|--------|----------|----------|--|
+|lgbm4+ridge2.csv|-|-|0.803|
+|lgbm5+ridge2.csv|-|-|0.803|
+|keras1+ridge2.csv|-|-|0.805|
+|keras2+ridge2.csv|-|-|0.790|
+|keras3+ridge2.csv|-|-|0.798|
+|keras4+ridge2.csv|-|-|0.805|
+|keras5+ridge2.csv|-|-|0.803|
+|keras6+ridge2.csv|-|-|0.801|
+|keras7+ridge2.csv|-|-|0.798|
+|keras8+ridge2.csv|-|-|0.805|
+|all-in-one2.csv|-|-|0.812|
+|keras12+keras2.csv|-|-|0.807|
+|keras12+keras3.csv|-|-|0.807|
+|keras13+keras4.csv|-|-|0.813|
+|keras13+keras5.csv|0.80570|0.82904|0.812|
 ||||
 ||||
 ||||
