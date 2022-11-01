@@ -154,6 +154,8 @@ MSCIに参加したときのkaggle日記
 
 # done
 * adversal validation:testデータに似たvalidationデータを作成する手法
+* 次元削減した特徴量は分散があるレベルに達すると情報よりもノイズをもたらす
+* 多重共線性を避けるため最適な特徴量を選択する
 
 # paper(参考にした論文の一覧)
 * skip connectionについて(https://www.slideshare.net/yamatookamoto5/skip-connection-neural-network)
