@@ -58,6 +58,8 @@ MSCIに参加したときのkaggle日記
 
 
 
+cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14550),adv6=(70988, 12050)
+
 |filename|cite_pri_cv|cite_pub_cv|comment|
 |--------|-----------|-----------|-------|
 |lgbm4.csv|0.87536|-|dataset:original|
