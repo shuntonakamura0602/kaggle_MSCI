@@ -23,12 +23,12 @@ MSCIに参加したときのkaggle日記
 
 |filename|multi_pri_cv|multi_pub_cv|comment|
 |--------|------------|------------|-------|
-|ridge2.csv|0.598|-|dataset:original|
-|keras2.csv|0.92117|-|dataset:svd512[:,:40]|
-|keras3.csv|0.89431|-|dataset:archive|
-|keras4.csv|0.89477|0.94175|dataset:archive|
-|keras5.csv|0.92205|0.95701|dataset:original-svd512[:,:40]|
-|keras6.csv|0.92080|0.95678|dataset:original-svd512[:,:100]|
+|ridge2.csv|-|-|dataset:original|
+|keras2.csv|-|-|dataset:svd512[:,:40]|
+|keras3.csv|-|-|dataset:archive|
+|keras4.csv|-|-|dataset:archive|
+|keras5.csv|||dataset:original-svd512[:,:40]|
+|keras6.csv|0.60499|0.66800|dataset:original-svd512[:,:100]|
 |keras7.csv||||
 |keras8.csv||||
 |keras9.csv||||
