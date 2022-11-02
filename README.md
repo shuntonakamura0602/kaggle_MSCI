@@ -100,7 +100,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras32.csv|0.88523|0.89176|dataset:adval3-svd512[:,:32]|
 |keras33.csv|0.88383|0.89092|dataset:adval4-svd512[:,:32]|
 |keras34.csv|0.88240|0.88997|dataset:adval5-svd512[:,:32]|
-|keras35.csv||||
+|keras35.csv|0.88118|0.88832|dataset:svdtoadv462[:,:32]|
 |keras36.csv||||
 |keras37.csv||||
 |keras38.csv||||
