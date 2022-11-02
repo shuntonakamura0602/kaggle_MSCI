@@ -21,6 +21,8 @@ MSCIに参加したときのkaggle日記
 
 * cv変更後
 
+multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190000)
+
 |filename|multi_pri_cv|multi_pub_cv|comment|
 |--------|------------|------------|-------|
 |ridge2.csv|-|-|dataset:original|
