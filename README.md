@@ -152,9 +152,17 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 
 
 
-* lgbm4 < lgbm5 なのでgbdtにおいてadversal validationは成功している
-* keras1 < keras_ となるadvを作成する
-* さまざまなadvでアンサンブルする
+
+
+# 得られた事実
+* svdデータセットは一定の分散を超えるとノイズが大きくなるため一部の列のみ使用
+* MLPにおいてadv⇨svdの処理をした時cv↓lb↓
+* MLPにおいてsvd⇨advの処理をした時cv↓lb↓
+* lgbm4<lgbm5 なのでgbdtにおいてadversal validationは成功している
+
+# 考察
+* MLPにおいては特徴量選択がかなり重要になる
+* MLPにおいてsvdは不要
 
 # dataset detail
 * adval~ :adversal validationを行なったもの
