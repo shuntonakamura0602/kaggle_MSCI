@@ -165,7 +165,17 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 * MLPにおいてsvdは不要
 
 # dataset detail
-* adval~ :adversal validationを行なったもの
+* adval~ :adversal validationをしたもの
+* ~_Citeseq_adval_truncated_~ :advしたものをsvdしたもの
+* log~ :originalにlog変換をしたもの
+* minmax~ :originalにminmax変換をしたもの
+* sqrt~ :originalにsquare root変換したもの
+* standard~ :originalにstandard変換したもの
+* Y_~ :multiomeのtargetをsvdしたもの
+* train_~ :multiomeのtrainをsvdしたもの
+* pca_target:multiomeのsvd自体
+* pca_train:multiomeのsvd自体
+
 
 # アイデア
 
