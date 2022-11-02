@@ -92,6 +92,22 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras24.csv|0.88690|0.89388|dataset:original-svd128[:,:42]|
 |keras25.csv|0.88688|0.89395|dataset:original-svd64|
 |keras26.csv|0.88677|0.89335|dataset:original-svd64[:,:32]|
+|keras27.csv|0.87568|0.88539|dataset:adval2-svd512[:,:512]|
+|keras28.csv|0.87790|0.88690|dataset:adval2-svd512[:,:256]|
+|keras29.csv|0.87983|0.88805|dataset:adval2-svd512[:,:128]|
+|keras30.csv|0.88085|0.88857|dataset:adval2-svd512[:,:64]|
+|keras31.csv|0.88129|0.88871|dataset:adval2-svd512[:,:32]|
+|keras32.csv|0.88523|0.89176|dataset:adval3-svd512[:,:32]|
+|keras33.csv|0.88383|0.89092|dataset:adval4-svd512[:,:32]|
+|keras34.csv|0.88240|0.88997|dataset:adval5-svd512[:,:32]|
+|keras35.csv||||
+|keras36.csv||||
+|keras37.csv||||
+|keras38.csv||||
+|keras39.csv||||
+|keras40.csv||||
+|keras41.csv||||
+|keras42.csv||||
 |||||
 |||||
 |||||
@@ -101,6 +117,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |||||
 |||||
 |||||
+
 
 
 
