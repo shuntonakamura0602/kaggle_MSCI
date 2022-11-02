@@ -166,7 +166,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 
 # dataset detail
 * adval~ :adversal validationをしたもの
-* ~_Citeseq_adval_truncated_~ :advしたものをsvdしたもの
+* Citeseq_adval_truncated_~ :citeをsvdしたもの
 * log~ :originalにlog変換をしたもの
 * minmax~ :originalにminmax変換をしたもの
 * sqrt~ :originalにsquare root変換したもの
