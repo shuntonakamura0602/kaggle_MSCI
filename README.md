@@ -175,6 +175,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 * train_~ :multiomeのtrainをsvdしたもの
 * pca_target:multiomeのsvd自体
 * pca_train:multiomeのsvd自体
+* Varianced_~_cite_inputs.h5 :originalをvarianced thresholdしたもの
 
 
 # アイデア
