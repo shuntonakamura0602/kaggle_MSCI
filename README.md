@@ -102,8 +102,8 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras34.csv|0.88240|0.88997|dataset:adval5-svd512[:,:32]|
 |keras35.csv|0.88118|0.88832|dataset:svdtoadv462[:,:32]|
 |keras36.csv|0.88669|0.89420|dataset:original_varianced512[:,:75]|
-|keras37.csv|0.88601||dataset:log_varianced512[:,:75]|
-|keras38.csv|||dataset:minmax_varianced512[:,:75]|
+|keras37.csv|0.88601|0.89378|dataset:log_varianced512[:,:75]|
+|keras38.csv|0.88642|0.89371|dataset:minmax_varianced512[:,:75]|
 |keras39.csv|||dataset:sqrt_varianced512[:,:75]|
 |keras40.csv|||dataset:standard_varianced512[:,:75]|
 |keras41.csv||||
