@@ -106,7 +106,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras38.csv|0.88643|0.89373|dataset:minmax_varianced512[:,:75]|
 |keras39.csv|0.88558|0.89319|dataset:sqrt_varianced512[:,:75]|
 |keras40.csv|0.88733|0.89429|dataset:standard_varianced512[:,:75]|
-__|keras41.csv|0.88755||dataset:standard_varianced512[:,:75](X0&X0tを追加)|__
+|___keras41.csv___|0.88755||dataset:standard_varianced512[:,:75](X0&X0tを追加)|
 |keras42.csv||||
 |keras43.csv||||
 |keras44.csv||||
