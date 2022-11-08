@@ -106,7 +106,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras38.csv|0.88643|0.89373|dataset:pca_minmax_varianced512[:,:75]|
 |keras39.csv|0.88558|0.89319|dataset:pca_sqrt_varianced512[:,:75]|
 |keras40.csv|0.88733|0.89429|dataset:pca_standard_varianced512[:,:75]|
-|keras41.csv|___0.88755___|___0.89468___|dataset:pca_standard_varianced512[:,:75],X0&X0tを追加|
+|keras41.csv|0.88755|___0.89468___|dataset:pca_standard_varianced512[:,:75],X0&X0tを追加|
 |keras42.csv|0.88692|0.89411|dataset:svd_original_varianced512[:,:75]|
 |keras43.csv|0.88557|0.89302|dataset:svd_log_varianced512[:,:75]|
 |keras44.csv|0.88630|0.89357|dataset:svd_minmax_varianced512[:,:75]|
@@ -115,6 +115,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras47.csv|0.87839|0.88124|dataset:umap_original_varianced512[:,:75]|
 |keras48.csv|0.87982|0.88420|dataset:umap_standard_varianced512[:,:75]|
 |ensemble_mlp1.csv|0.88742|0.88814|'keras41','keras42'|
+|ensemble_mlp2.csv|___0.88829___|0.88930|'keras41','keras42'|
 |keras49.csv||||
 |keras50.csv||||
 |keras51.csv||||
