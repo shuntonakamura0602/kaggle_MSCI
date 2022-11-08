@@ -116,6 +116,8 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras48.csv|0.87982|0.88420|dataset:umap_standard_varianced512[:,:75]|
 |ensemble_mlp1.csv|0.88742|0.88814|'keras41','keras42'|
 |ensemble_mlp2.csv|___0.88829___|0.88930|'keras41','keras42'|
+|ensemble_mlp3.csv|0.88694|0.88771|keras41,keras44,keras45,st|
+|ensemble_mlp4.csv|0.88744|0.88873|keras41,keras44,keras45,st|
 |keras49.csv||||
 |keras50.csv||||
 |keras51.csv||||
