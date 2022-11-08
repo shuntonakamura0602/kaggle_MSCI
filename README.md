@@ -114,6 +114,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras46.csv|0.88745|0.89460|dataset:svd_standard_varianced512[:,:75]|
 |keras47.csv|0.87839|0.88124|dataset:umap_original_varianced512[:,:75]|
 |keras48.csv|0.87982|0.88420|dataset:umap_standard_varianced512[:,:75]|
+|ensemble_mlp1.csv|0.88742|0.88814|'keras41','keras42'|
 |keras49.csv||||
 |keras50.csv||||
 |keras51.csv||||
@@ -178,7 +179,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras35+keras4.csv|-|-|0.809|
 |keras40+keras5.csv|0.80634|0.82918|0.813|
 |keras41+keras5.csv|0.80650|0.82946|0.813|
-|||||
+|ensemble_mlp1+keras5.csv|0.80641|0.82480||
 |||||
 |||||
 |||||
