@@ -114,10 +114,6 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras46.csv|0.88745|0.89460|dataset:svd_standard_varianced512[:,:75]|
 |keras47.csv|0.87839|0.88124|dataset:umap_original_varianced512[:,:75]|
 |keras48.csv|0.87982|0.88420|dataset:umap_standard_varianced512[:,:75]|
-|ensemble_mlp1.csv|0.88742|0.88814|keras41,keras42|
-|ensemble_mlp2.csv|___0.88829___|0.88930|keras41,keras42,st|
-|ensemble_mlp3.csv|0.88694|0.88771|keras41,keras44,keras45|
-|ensemble_mlp4.csv|0.88744|0.88873|keras41,keras44,keras45,st|
 |keras49.csv|0.87865|0.88604|dataset:pca_standard_varianced512[:,75:150]|
 |keras50.csv|0.87067|0.87909|dataset:pca_standard_varianced512[:,75:150],X0[:,:42]|
 |keras51.csv|0.87662|0.88416|dataset:pca_standard_varianced512[:,75:150],X0[:,:63]|
@@ -125,15 +121,15 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras53.csv|0.87794|0.88511|dataset:pca_standard_varianced512[:,225:300]|
 |keras54.csv|0.87790|0.88524|dataset:pca_standard_varianced512[:,300:375]|
 |keras55.csv|0.87775|0.88517|dataset:pca_standard_varianced512[:,375:450]|
-|keras56.csv|0.88755|0.89468|dataset:pca_standard_varianced512[:,:75]|
-|keras57.csv||||
-|keras58.csv||||
-|keras59.csv||||
-|keras60.csv||||
-|keras61.csv||||
-|keras62.csv||||
-|keras63.csv|||dataset:pca_standard_varianced512[:,:75],行std|
-|keras64.csv|||dataset:pca_original_varianced512[:,:75],行std|
+|keras56.csv|0.88755|0.89468|dataset:pca_standard_varianced512[:,:75],bs=512|
+|keras57.csv|0.88736|0.89460|dataset:svd_standard_varianced512[:,:75],bs=256|
+|keras58.csv|0.88691|0.89461|dataset:svd_standard_varianced512[:,:75],bs=1024|
+|keras59.csv|0.88654|0.89452|dataset:svd_standard_varianced512[:,:75],bs=2048|
+|keras60.csv|0.88758|0.89437|dataset:svd_standard_varianced512[:,:75],bs=128|
+|keras61.csv|0.88658|0.89398|dataset:pca_standard_varianced512[:,:75],bs=512,lgbm important cols|
+|keras62.csv|-|-|dataset:pca_standard_varianced512[:,:75],bs=512|
+|keras63.csv|___0.88791___|0.89427|dataset:pca_standard_varianced512[:,:75],行std|
+|keras64.csv|0.88705|0.89372|dataset:pca_original_varianced512[:,:75],行std|
 |keras65.csv||||
 |keras66.csv||||
 |||||
@@ -147,6 +143,10 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |||||
 |||||
 |||||
+|ensemble_mlp1.csv|-|0.88814|keras41,keras42|
+|ensemble_mlp2.csv|-|0.88930|keras41,keras42,st|
+|ensemble_mlp3.csv|-|0.88771|keras41,keras44,keras45|
+|ensemble_mlp4.csv|-|0.88873|keras41,keras44,keras45,st|
 |||||
 |||||
 |||||
