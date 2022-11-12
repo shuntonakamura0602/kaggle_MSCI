@@ -128,6 +128,14 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras56.csv|0.88755|0.89468|dataset:pca_standard_varianced512[:,:75]|
 |keras57.csv||||
 |keras58.csv||||
+|keras59.csv||||
+|keras60.csv||||
+|keras61.csv||||
+|keras62.csv||||
+|keras63.csv|||dataset:pca_standard_varianced512[:,:75],行std|
+|keras64.csv|||dataset:pca_original_varianced512[:,:75],行std|
+|keras65.csv||||
+|keras66.csv||||
 |||||
 |||||
 |||||
