@@ -106,7 +106,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras38.csv|0.88643|0.89373|dataset:pca_minmax_varianced512[:,:75]|
 |keras39.csv|0.88558|0.89319|dataset:pca_sqrt_varianced512[:,:75]|
 |keras40.csv|0.88733|0.89429|dataset:pca_standard_varianced512[:,:75]|
-|keras41.csv|0.88755|___0.89468___|dataset:pca_standard_varianced512[:,:75],X0&X0tを追加|
+|keras41.csv|0.88755|0.89468|dataset:pca_standard_varianced512[:,:75],X0&X0tを追加|
 |keras42.csv|0.88692|0.89411|dataset:svd_original_varianced512[:,:75]|
 |keras43.csv|0.88557|0.89302|dataset:svd_log_varianced512[:,:75]|
 |keras44.csv|0.88630|0.89357|dataset:svd_minmax_varianced512[:,:75]|
@@ -138,10 +138,10 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras70.csv|0.88706|0.89439|x0batch normalization|
 |keras71.csv|0.88695|0.89391|x0x1batch normalization|
 |keras72.csv|0.88686|0.89402|x0x1x2batch normalization|
-|keras73.csv|||x0x1x2x3batch normalization|
-|keras74.csv|||x0x1x2x3xbatch normalization|
-|keras75.csv|||xbatch normalization|
-|keras76.csv||||
+|keras73.csv|0.88679|0.89404|x0x1x2x3batch normalization|
+|keras74.csv|0.88655|0.89392|x0x1x2x3xbatch normalization|
+|keras75.csv|0.88721|___0.89472___|xbatch normalization|
+|keras76.csv|||tuning|
 |keras77.csv||||
 |||||
 |||||
