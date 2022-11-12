@@ -130,9 +130,9 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras62.csv|-|-|dataset:pca_standard_varianced512[:,:75],bs=512|
 |keras63.csv|___0.88791___|0.89427|dataset:pca_standard_varianced512[:,:75],行std|
 |keras64.csv|0.88705|0.89372|dataset:pca_original_varianced512[:,:75],行std|
-|keras65.csv||||
-|keras66.csv||||
-|||||
+|keras65.csv|0.88669|0.89348|dataset:pca_standard_varianced512,次元削減後X0+Xとターゲット全体の平均で160特徴量選択|
+|keras66.csv|0.88611|0.89331|dataset:pca_standard_varianced512,次元削減後Xとターゲット全体の平均で243特徴量選択|
+|keras67.csv|0.88690|0.89379|dataset:pca_standard_varianced512,次元削減後Xとターゲット全体の平均で160特徴量選択|
 |||||
 |||||
 |||||
