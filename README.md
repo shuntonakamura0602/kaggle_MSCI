@@ -133,6 +133,17 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras65.csv|0.88669|0.89348|dataset:pca_standard_varianced512,次元削減後X0+Xとターゲット全体の平均で160特徴量選択|
 |keras66.csv|0.88611|0.89331|dataset:pca_standard_varianced512,次元削減後Xとターゲット全体の平均で243特徴量選択|
 |keras67.csv|0.88690|0.89379|dataset:pca_standard_varianced512,次元削減後Xとターゲット全体の平均で160特徴量選択|
+|keras68.csv|0.88632|0.89399|Mish関数|
+|keras69.csv|0.88643|0.89392|Swish関数|
+|keras70.csv|0.88706|0.89439|x0batch normalization|
+|keras71.csv|0.88695|0.89391|x0x1batch normalization|
+|keras72.csv|0.88686|0.89402|x0x1x2batch normalization|
+|keras73.csv|||x0x1x2x3batch normalization|
+|keras74.csv|||x0x1x2x3xbatch normalization|
+|keras75.csv|||xbatch normalization|
+|keras76.csv||||
+|keras77.csv||||
+|||||
 |||||
 |||||
 |||||
