@@ -46,9 +46,9 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras19.csv|0.60533|0.66713|dataset:original-svd128[:,:16]|
 |keras20.csv|0.60404|0.66771|dataset:original-svd64[:,:64]|
 |keras21.csv|0.60461|0.66778|dataset:original-svd64[:,:32]|
-|keras22.csv||||
-|keras23.csv||||
-|keras24.csv||||
+|keras22.csv|0.60613|0.66821|svd_original_varianced512[:,:40]|
+|keras23.csv|0.60440|0.66665|svd_minmax_varianced512[:,:40]|
+|keras24.csv|0.60606|0.66847|svd_sqrt_varianced512[:,:40]|
 |keras25.csv||||
 |keras26.csv||||
 |keras27.csv||||
