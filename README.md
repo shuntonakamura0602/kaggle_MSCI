@@ -49,7 +49,7 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras22.csv|0.60613|0.66821|svd_original_varianced512[:,:40]|
 |keras23.csv|0.60440|0.66665|svd_minmax_varianced512[:,:40]|
 |keras24.csv|0.60606|0.66847|svd_sqrt_varianced512[:,:40]|
-|keras25.csv||||
+|keras25.csv|0.60625|0.66800|svd_standard_varianced512[:,:40]|
 |keras26.csv||||
 |keras27.csv||||
 |keras28.csv||||
