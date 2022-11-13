@@ -231,8 +231,8 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |ensemble_mlp4+keras5.csv|0.80642|0.82522|0.807|
 |blending1+keras5.csv|-|0.81818|0.813|
 |blending2+keras5.csv|-|0.81832||
-|keras75+keras5.csv|0.79192|0.81793||
-|||||
+|keras75+keras5.csv|0.79192|0.81793|0.813|
+|keras75+keras24.csv|-|-|0.812|
 |||||
 |||||
 |||||
