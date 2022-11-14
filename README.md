@@ -167,7 +167,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras73.csv|0.88679|0.89404|x0x1x2x3batch normalization|
 |keras74.csv|0.88655|0.89392|x0x1x2x3xbatch normalization|
 |keras75.csv|0.88721|___0.89472___|xbatch normalization|
-|keras76.csv|||xbatch normalization|
+|keras76.csv|||xbatch normalization,oof|
 |||||
 |||||
 |||||
