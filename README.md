@@ -64,16 +64,16 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras37.csv|0.28706|0.66756|svd_sqrt_varianced512[:,:40],行std,xbatch normalization|
 |keras38.csv|0.60461|0.66834|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,mish|
 |keras39.csv|0.60334|0.66839|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,swish|
-|keras40.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=256,oof|
-|keras41.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
-|keras42.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=1024|
-|keras43.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=128|
-|keras44.csv||||
-|keras45.csv||||
-|keras46.csv||||
-|keras47.csv||||
-|keras48.csv||||
-|keras49.csv||||
+|keras40.csv|0.60440|0.66880|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=256,oof|
+|keras41.csv|0.60288|0.66877|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
+|keras42.csv|0.60068|0.66877|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=1024|
+|keras43.csv|0.60456||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=128|
+|keras44.csv|||svd_standard_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
+|keras45.csv|||svd_log_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
+|keras46.csv|||svd_minmax_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
+|keras47.csv|||svd_original_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
+|keras48.csv|||svd_sqrt_varianced512[:,:50],行std,x0x1x2x3batch normalization,bs=512|
+|keras49.csv|||svd_sqrt_varianced512[:,:60],行std,x0x1x2x3batch normalization,bs=512|
 |keras50.csv||||
 |keras51.csv||||
 |keras52.csv||||
