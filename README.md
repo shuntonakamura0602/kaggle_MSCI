@@ -64,7 +64,7 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras37.csv|0.28706|0.66756|svd_sqrt_varianced512[:,:40],行std,xbatch normalization|
 |keras38.csv|0.60461|0.66834|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,mish|
 |keras39.csv|0.60334|0.66839|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,swish|
-|keras40.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=256|
+|keras40.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=256,oof|
 |keras41.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
 |keras42.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=1024|
 |keras43.csv|||svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=128|
