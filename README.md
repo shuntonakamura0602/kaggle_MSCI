@@ -70,7 +70,7 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras43.csv|0.60456|0.66877|svd_sqrt_varianced512[:,:40],std,x0x1x2x3batch normalization,bs=128|
 |keras44.csv|0.60581|0.66853|svd_standard_varianced512[:,:40],std,x0x1x2x3batch normalization,bs=512|
 |keras45.csv|0.60509|0.66877|svd_log_varianced512[:,:40],std,x0x1x2x3batch normalization,bs=512|
-|keras46.csv|0.60288|0.66879|svd_sqrt_varianced512[:,:40],std,x0x1x2x3batch normalization,bs=512|
+|keras46.csv|0.60288|0.66879|svd_sqrt_varianced512[:,:40],std,x0x1x2x3batch normalization,bs=512,以下pri-oof実装|
 |keras47.csv|0.60421|0.66850|svd_sqrt_varianced512[:,:40],行std,x0x1x2x3batch normalization,bs=512|
 |keras48.csv|0.60269|0.66876|svd_sqrt_varianced512[:,:50],std,x0x1x2x3batch normalization,bs=512|
 |keras49.csv|0.60267|0.66870|svd_sqrt_varianced512[:,:60],std,x0x1x2x3batch normalization,bs=512|
@@ -179,7 +179,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras74.csv|0.88655|0.89392|x0x1x2x3xbatch normalization|
 |keras75.csv|0.88721|___0.89472___|xbatch normalization|
 |keras76.csv|||xbatch normalization,oof|
-|keras77.csv|||dataset:pca_original_varianced512[:,:75],std|
+|keras77.csv|||dataset:pca_original_varianced512[:,:75],std,以下pri-oof実装|
 |keras78.csv|||dataset:pca_original_varianced512[:,:75],行std|
 |keras79.csv|||dataset:pca_log_varianced512[:,:75],std|
 |keras80.csv|||dataset:pca_log_varianced512[:,:75],行std|
