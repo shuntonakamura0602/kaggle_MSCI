@@ -87,11 +87,11 @@ multi adv=(10592,180000),adv2=(10592,210000),adv3=(10592,200000),adv4=(10592,190
 |keras60.csv|0.60484|0.66827|svd_original_varianced512[:,:40],std,bs=512|
 |keras61.csv|0.60547|0.66798|svd_original_varianced512[:,:40],行std,bs=512|
 |keras62.csv|0.60522|0.66857|svd_log_varianced512[:,:40],std,bs=512|
-|keras63.csv|||svd_log_varianced512[:,:40],行std,bs=512|
-|keras64.csv|||svd_standard_varianced512[:,:40],std,bs=512|
-|keras65.csv|||svd_standard_varianced512[:,:40],行std,bs=512|
-|keras66.csv|||svd_minmax_varianced512[:,:40],std,bs=512|
-|keras67.csv|||svd_minmax_varianced512[:,:40],行std,bs=512|
+|keras63.csv|0.60664|0.66820|svd_log_varianced512[:,:40],行std,bs=512|
+|keras64.csv|0.60539|0.66822|svd_standard_varianced512[:,:40],std,bs=512|
+|keras65.csv|0.60641|0.66780|svd_standard_varianced512[:,:40],行std,bs=512|
+|keras66.csv|0.60325|0.66665|svd_minmax_varianced512[:,:40],std,bs=512|
+|keras67.csv|0.60432|0.66628|svd_minmax_varianced512[:,:40],行std,bs=512|
 
 
 
@@ -179,13 +179,13 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 |keras74.csv|0.88655|0.89392|x0x1x2x3xbatch normalization|
 |keras75.csv|0.88721|___0.89472___|xbatch normalization|
 |keras76.csv|||xbatch normalization,oof|
-|keras77.csv|||dataset:pca_original_varianced512[:,:75],std,以下pri-oof実装|
-|keras78.csv|||dataset:pca_original_varianced512[:,:75],行std|
-|keras79.csv|||dataset:pca_log_varianced512[:,:75],std|
-|keras80.csv|||dataset:pca_log_varianced512[:,:75],行std|
-|keras81.csv|||dataset:pca_minmax_varianced512[:,:75],std|
-|keras82.csv|||dataset:pca_minmax_varianced512[:,:75],行std|
-|keras83.csv|||dataset:pca_sqrt_varianced512[:,:75],std|
+|keras77.csv|0.88563|0.89368|dataset:pca_original_varianced512[:,:75],std,以下pri-oof実装|
+|keras78.csv|0.88652|0.89326|dataset:pca_original_varianced512[:,:75],行std|
+|keras79.csv|0.88666|0.89414|dataset:pca_log_varianced512[:,:75],std|
+|keras80.csv|0.88625|0.89355|dataset:pca_log_varianced512[:,:75],行std|
+|keras81.csv|0.88664|0.89403|dataset:pca_minmax_varianced512[:,:75],std|
+|keras82.csv|0.88629|0.89386|dataset:pca_minmax_varianced512[:,:75],行std|
+|keras83.csv|0.88619|0.89413|dataset:pca_sqrt_varianced512[:,:75],std|
 |keras84.csv|||dataset:pca_sqrt_varianced512[:,:75],行std|
 |keras85.csv|||dataset:pca_standard_varianced512[:,:75],std|
 |keras86.csv|||dataset:pca_standard_varianced512[:,:75],行std|
