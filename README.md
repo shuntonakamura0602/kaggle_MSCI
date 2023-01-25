@@ -2,6 +2,10 @@
 MSCIに参加したときのkaggle日記
 
 # 最終結果
+<img width="602" alt="スクリーンショット 2023-01-25 11 11 08" src="https://user-images.githubusercontent.com/63344524/214465069-827e1741-7572-4489-91af-41cf1ad9ab88.png">
+
+銀メダルが61位のためあとだった
+
 
 # timeline
 * ~11/15
