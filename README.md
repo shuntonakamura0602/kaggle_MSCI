@@ -14,8 +14,6 @@ public LB
 他の人と異なるvalidationが大きな原因だと思われる
 
 
-[未来創造3年最終.pptx](https://github.com/shuntonakamura0602/kaggle_MSCI/files/10790902/3.pptx)
-
 
 
 # timeline
