@@ -12,6 +12,16 @@ public LB
 
 若干shake downしている
 他の人と異なるvalidationが大きな原因だと思われる
+![image](https://user-images.githubusercontent.com/63344524/220280995-742fce61-61b6-49ee-bd5c-882f49d8c3fc.png)
+![image](https://user-images.githubusercontent.com/63344524/220281011-1b386f7d-df37-4efe-aff1-5da720010122.png)
+![image](https://user-images.githubusercontent.com/63344524/220281029-4f928d7c-2eba-483c-927e-62374df1452b.png)
+![image](https://user-images.githubusercontent.com/63344524/220281049-31b05fed-b699-42cb-978d-3f2645cf036c.png)
+![image](https://user-images.githubusercontent.com/63344524/220281064-ce80ee04-3373-43e3-82f9-2ab38a1785a5.png)
+![image](https://user-images.githubusercontent.com/63344524/220281078-b3b94e39-f695-4065-a202-93b36505cc67.png)
+![image](https://user-images.githubusercontent.com/63344524/220281097-4b2ba565-3d0b-435c-9c72-8be7e3094efb.png)
+![image](https://user-images.githubusercontent.com/63344524/220281114-b934d59a-e11f-41c8-9669-659762444d45.png)
+![image](https://user-images.githubusercontent.com/63344524/220281134-b3ea5404-361a-4ca9-be25-98abacd29d55.png)
+![image](https://user-images.githubusercontent.com/63344524/220281151-77433f50-1fb9-4e87-93f8-0584f8dc6375.png)
 
 
 
