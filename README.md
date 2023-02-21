@@ -11,7 +11,7 @@ public LB
 <img width="1088" alt="スクリーンショット 2023-02-21 15 39 31" src="https://user-images.githubusercontent.com/63344524/220266836-5704b889-8089-4681-8c67-4476b17e1e9c.png">
 
 若干shake downしている
-他の人とことなるvalidationが大きな原因だと思われる
+他の人と異なるvalidationが大きな原因だと思われる
 
 
 # timeline
