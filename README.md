@@ -23,8 +23,7 @@ public LB
 ![image](https://user-images.githubusercontent.com/63344524/220281151-77433f50-1fb9-4e87-93f8-0584f8dc6375.png)
 
 # 使用したモデル
-![Open Problem-8](https://user-images.githubusercontent.com/63344524/227107679-c15ebbe9-bdc9-467b-9586-651f137e7155.jpg)
-
+<img width="605" alt="スクリーンショット 2023-03-23 14 01 02" src="https://user-images.githubusercontent.com/63344524/227107902-5bc8d897-2187-449f-9d26-4362c386a732.png">
 
 # timeline
 * ~11/15
