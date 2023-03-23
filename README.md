@@ -1,5 +1,4 @@
 # kaggle_MSCI
-MSCIに参加したときのkaggle日記
 
 # 最終結果
 <img width="602" alt="スクリーンショット 2023-01-25 11 11 08" src="https://user-images.githubusercontent.com/63344524/214465069-827e1741-7572-4489-91af-41cf1ad9ab88.png">
@@ -23,7 +22,8 @@ public LB
 ![image](https://user-images.githubusercontent.com/63344524/220281134-b3ea5404-361a-4ca9-be25-98abacd29d55.png)
 ![image](https://user-images.githubusercontent.com/63344524/220281151-77433f50-1fb9-4e87-93f8-0584f8dc6375.png)
 
-
+# 使用したモデル
+![Open Problem-8](https://user-images.githubusercontent.com/63344524/227107679-c15ebbe9-bdc9-467b-9586-651f137e7155.jpg)
 
 
 # timeline
