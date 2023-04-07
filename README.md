@@ -467,6 +467,7 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 * モデリング
 - skip connection
 - activation : mish,swish
+- batch normalization
 
 * アンサンブル
 - stacking
