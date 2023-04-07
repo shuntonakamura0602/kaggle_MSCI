@@ -451,6 +451,9 @@ cite adv2=(70988, 11699),adv3=(70988, 22050),adv4=(70988, 17050),adv5=(70988, 14
 
 
 * バリデーション設計
+![Open Problem-6](https://user-images.githubusercontent.com/63344524/230557019-7e801364-2348-40e2-aa94-cfb338ad00e3.jpg)
+
+![Open Problem-5](https://user-images.githubusercontent.com/63344524/230557044-ed35733e-b59f-4df7-8c86-352b33fef783.jpg)
 
 * データ前処理
 - 標準化
